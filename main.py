@@ -27,17 +27,18 @@ def main():
 		Points.append(p)
 		line = file.readline()
 
-	combinations_object = list(product(Points,repeat=2))
+	combinations_object = list(product(Points, repeat=2))
 	for i in range(len(combinations_object)):
 		p1 = combinations_object[i][0]
 		p2 = combinations_object[i][1]
-		r = Rule(p1,p2)
-		Rules.append(r)
+		if p1 != p2:
+			r = Rule(p1,p2)
+			Rules.append(r)
 
 	empirical_error_test = 0
 	empirical_error_train = 0
 
-	for i in range(10):
+	for i in range(30):
 		for p in Points:
 			p.weight = 1 / 75
 
@@ -101,11 +102,16 @@ def main():
 def check_claissified_point(p,h):
 	type = 0
 	hx = 0
-	# checking if this rule classified the point as 1 or -1
-	if (p.y > h.p1.y) & (p.y > h.p2.y):
+	# checking if this rule classified the point as 1 or -1 using  Cross product
+	v1 = [float(h.p1.x) - float(h.p2.x), float(h.p1.y) - float(h.p2.y)]  # Vector 1
+	v2 = [float(h.p1.x) - float(p.x), float(h.p1.y) - float(p.y)] # Vector 1
+	xp = v1[0] * v2[1] - v1[1] * v2[0]
+	if xp > 0:
 		type = 1
-	else:
+	elif xp < 0:
 		type = -1
+	else:
+		type = random.choice([-1, 1])
 	if p.type == type:
 		hx = 1
 	else:
