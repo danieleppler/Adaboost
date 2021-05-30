@@ -1,0 +1,221 @@
+iteration number: 1
+success rate of rule 1 on train : 73.33%        success rate of rule 1 on test : 69.33%
+success rate of rule 2 on train : 73.33%        success rate of rule 2 on test : 70.67%
+success rate of rule 3 on train : 73.33%        success rate of rule 3 on test : 76.0%
+success rate of rule 4 on train : 73.33%        success rate of rule 4 on test : 74.67%
+success rate of rule 5 on train : 73.33%        success rate of rule 5 on test : 76.0%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 76.0%
+success rate of rule 7 on train : 73.33%        success rate of rule 7 on test : 74.67%
+success rate of rule 8 on train : 73.33%        success rate of rule 8 on test : 74.67%
+
+ 
+iteration number: 2
+success rate of rule 1 on train : 68.0%        success rate of rule 1 on test : 78.67%
+success rate of rule 2 on train : 68.0%        success rate of rule 2 on test : 74.67%
+success rate of rule 3 on train : 69.33%        success rate of rule 3 on test : 80.0%
+success rate of rule 4 on train : 69.33%        success rate of rule 4 on test : 76.0%
+success rate of rule 5 on train : 69.33%        success rate of rule 5 on test : 78.67%
+success rate of rule 6 on train : 69.33%        success rate of rule 6 on test : 76.0%
+success rate of rule 7 on train : 69.33%        success rate of rule 7 on test : 80.0%
+success rate of rule 8 on train : 68.0%        success rate of rule 8 on test : 80.0%
+
+ 
+iteration number: 3
+success rate of rule 1 on train : 70.67%        success rate of rule 1 on test : 74.67%
+success rate of rule 2 on train : 70.67%        success rate of rule 2 on test : 76.0%
+success rate of rule 3 on train : 70.67%        success rate of rule 3 on test : 76.0%
+success rate of rule 4 on train : 70.67%        success rate of rule 4 on test : 73.33%
+success rate of rule 5 on train : 70.67%        success rate of rule 5 on test : 77.33%
+success rate of rule 6 on train : 70.67%        success rate of rule 6 on test : 73.33%
+success rate of rule 7 on train : 70.67%        success rate of rule 7 on test : 74.67%
+success rate of rule 8 on train : 70.67%        success rate of rule 8 on test : 76.0%
+
+ 
+iteration number: 4
+success rate of rule 1 on train : 73.33%        success rate of rule 1 on test : 73.33%
+success rate of rule 2 on train : 73.33%        success rate of rule 2 on test : 70.67%
+success rate of rule 3 on train : 73.33%        success rate of rule 3 on test : 72.0%
+success rate of rule 4 on train : 73.33%        success rate of rule 4 on test : 73.33%
+success rate of rule 5 on train : 73.33%        success rate of rule 5 on test : 73.33%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 74.67%
+success rate of rule 7 on train : 73.33%        success rate of rule 7 on test : 72.0%
+success rate of rule 8 on train : 73.33%        success rate of rule 8 on test : 70.67%
+
+ 
+iteration number: 5
+success rate of rule 1 on train : 84.0%        success rate of rule 1 on test : 61.33%
+success rate of rule 2 on train : 82.67%        success rate of rule 2 on test : 61.33%
+success rate of rule 3 on train : 84.0%        success rate of rule 3 on test : 62.67%
+success rate of rule 4 on train : 84.0%        success rate of rule 4 on test : 61.33%
+success rate of rule 5 on train : 84.0%        success rate of rule 5 on test : 64.0%
+success rate of rule 6 on train : 84.0%        success rate of rule 6 on test : 64.0%
+success rate of rule 7 on train : 82.67%        success rate of rule 7 on test : 64.0%
+success rate of rule 8 on train : 84.0%        success rate of rule 8 on test : 61.33%
+
+ 
+iteration number: 6
+success rate of rule 1 on train : 76.0%        success rate of rule 1 on test : 68.0%
+success rate of rule 2 on train : 78.67%        success rate of rule 2 on test : 69.33%
+success rate of rule 3 on train : 76.0%        success rate of rule 3 on test : 69.33%
+success rate of rule 4 on train : 77.33%        success rate of rule 4 on test : 69.33%
+success rate of rule 5 on train : 77.33%        success rate of rule 5 on test : 70.67%
+success rate of rule 6 on train : 78.67%        success rate of rule 6 on test : 69.33%
+success rate of rule 7 on train : 78.67%        success rate of rule 7 on test : 70.67%
+success rate of rule 8 on train : 78.67%        success rate of rule 8 on test : 70.67%
+
+ 
+iteration number: 7
+success rate of rule 1 on train : 70.67%        success rate of rule 1 on test : 76.0%
+success rate of rule 2 on train : 68.0%        success rate of rule 2 on test : 78.67%
+success rate of rule 3 on train : 70.67%        success rate of rule 3 on test : 78.67%
+success rate of rule 4 on train : 69.33%        success rate of rule 4 on test : 77.33%
+success rate of rule 5 on train : 69.33%        success rate of rule 5 on test : 78.67%
+success rate of rule 6 on train : 69.33%        success rate of rule 6 on test : 74.67%
+success rate of rule 7 on train : 70.67%        success rate of rule 7 on test : 78.67%
+success rate of rule 8 on train : 70.67%        success rate of rule 8 on test : 78.67%
+
+ 
+iteration number: 8
+success rate of rule 1 on train : 77.33%        success rate of rule 1 on test : 68.0%
+success rate of rule 2 on train : 77.33%        success rate of rule 2 on test : 68.0%
+success rate of rule 3 on train : 78.67%        success rate of rule 3 on test : 69.33%
+success rate of rule 4 on train : 77.33%        success rate of rule 4 on test : 69.33%
+success rate of rule 5 on train : 77.33%        success rate of rule 5 on test : 69.33%
+success rate of rule 6 on train : 77.33%        success rate of rule 6 on test : 70.67%
+success rate of rule 7 on train : 77.33%        success rate of rule 7 on test : 70.67%
+success rate of rule 8 on train : 76.0%        success rate of rule 8 on test : 69.33%
+
+ 
+iteration number: 9
+success rate of rule 1 on train : 73.33%        success rate of rule 1 on test : 66.67%
+success rate of rule 2 on train : 73.33%        success rate of rule 2 on test : 68.0%
+success rate of rule 3 on train : 73.33%        success rate of rule 3 on test : 65.33%
+success rate of rule 4 on train : 73.33%        success rate of rule 4 on test : 66.67%
+success rate of rule 5 on train : 73.33%        success rate of rule 5 on test : 65.33%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 68.0%
+success rate of rule 7 on train : 73.33%        success rate of rule 7 on test : 66.67%
+success rate of rule 8 on train : 73.33%        success rate of rule 8 on test : 68.0%
+
+ 
+iteration number: 10
+success rate of rule 1 on train : 74.67%        success rate of rule 1 on test : 69.33%
+success rate of rule 2 on train : 76.0%        success rate of rule 2 on test : 69.33%
+success rate of rule 3 on train : 74.67%        success rate of rule 3 on test : 69.33%
+success rate of rule 4 on train : 74.67%        success rate of rule 4 on test : 69.33%
+success rate of rule 5 on train : 77.33%        success rate of rule 5 on test : 72.0%
+success rate of rule 6 on train : 76.0%        success rate of rule 6 on test : 70.67%
+success rate of rule 7 on train : 77.33%        success rate of rule 7 on test : 69.33%
+success rate of rule 8 on train : 77.33%        success rate of rule 8 on test : 69.33%
+
+ 
+iteration number: 11
+success rate of rule 1 on train : 68.0%        success rate of rule 1 on test : 76.0%
+success rate of rule 2 on train : 66.67%        success rate of rule 2 on test : 78.67%
+success rate of rule 3 on train : 69.33%        success rate of rule 3 on test : 80.0%
+success rate of rule 4 on train : 68.0%        success rate of rule 4 on test : 78.67%
+success rate of rule 5 on train : 68.0%        success rate of rule 5 on test : 80.0%
+success rate of rule 6 on train : 69.33%        success rate of rule 6 on test : 80.0%
+success rate of rule 7 on train : 68.0%        success rate of rule 7 on test : 80.0%
+success rate of rule 8 on train : 69.33%        success rate of rule 8 on test : 80.0%
+
+ 
+iteration number: 12
+success rate of rule 1 on train : 74.67%        success rate of rule 1 on test : 73.33%
+success rate of rule 2 on train : 74.67%        success rate of rule 2 on test : 72.0%
+success rate of rule 3 on train : 76.0%        success rate of rule 3 on test : 72.0%
+success rate of rule 4 on train : 74.67%        success rate of rule 4 on test : 72.0%
+success rate of rule 5 on train : 76.0%        success rate of rule 5 on test : 72.0%
+success rate of rule 6 on train : 76.0%        success rate of rule 6 on test : 72.0%
+success rate of rule 7 on train : 76.0%        success rate of rule 7 on test : 73.33%
+success rate of rule 8 on train : 76.0%        success rate of rule 8 on test : 73.33%
+
+ 
+iteration number: 13
+success rate of rule 1 on train : 76.0%        success rate of rule 1 on test : 62.67%
+success rate of rule 2 on train : 76.0%        success rate of rule 2 on test : 64.0%
+success rate of rule 3 on train : 76.0%        success rate of rule 3 on test : 62.67%
+success rate of rule 4 on train : 76.0%        success rate of rule 4 on test : 65.33%
+success rate of rule 5 on train : 76.0%        success rate of rule 5 on test : 62.67%
+success rate of rule 6 on train : 76.0%        success rate of rule 6 on test : 64.0%
+success rate of rule 7 on train : 76.0%        success rate of rule 7 on test : 64.0%
+success rate of rule 8 on train : 76.0%        success rate of rule 8 on test : 62.67%
+
+ 
+iteration number: 14
+success rate of rule 1 on train : 68.0%        success rate of rule 1 on test : 80.0%
+success rate of rule 2 on train : 69.33%        success rate of rule 2 on test : 78.67%
+success rate of rule 3 on train : 69.33%        success rate of rule 3 on test : 80.0%
+success rate of rule 4 on train : 69.33%        success rate of rule 4 on test : 78.67%
+success rate of rule 5 on train : 68.0%        success rate of rule 5 on test : 80.0%
+success rate of rule 6 on train : 68.0%        success rate of rule 6 on test : 80.0%
+success rate of rule 7 on train : 69.33%        success rate of rule 7 on test : 80.0%
+success rate of rule 8 on train : 68.0%        success rate of rule 8 on test : 78.67%
+
+ 
+iteration number: 15
+success rate of rule 1 on train : 74.67%        success rate of rule 1 on test : 74.67%
+success rate of rule 2 on train : 73.33%        success rate of rule 2 on test : 69.33%
+success rate of rule 3 on train : 74.67%        success rate of rule 3 on test : 72.0%
+success rate of rule 4 on train : 74.67%        success rate of rule 4 on test : 70.67%
+success rate of rule 5 on train : 74.67%        success rate of rule 5 on test : 73.33%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 70.67%
+success rate of rule 7 on train : 74.67%        success rate of rule 7 on test : 74.67%
+success rate of rule 8 on train : 74.67%        success rate of rule 8 on test : 73.33%
+
+ 
+iteration number: 16
+success rate of rule 1 on train : 77.33%        success rate of rule 1 on test : 68.0%
+success rate of rule 2 on train : 77.33%        success rate of rule 2 on test : 66.67%
+success rate of rule 3 on train : 77.33%        success rate of rule 3 on test : 68.0%
+success rate of rule 4 on train : 78.67%        success rate of rule 4 on test : 68.0%
+success rate of rule 5 on train : 78.67%        success rate of rule 5 on test : 68.0%
+success rate of rule 6 on train : 78.67%        success rate of rule 6 on test : 68.0%
+success rate of rule 7 on train : 78.67%        success rate of rule 7 on test : 69.33%
+success rate of rule 8 on train : 77.33%        success rate of rule 8 on test : 69.33%
+
+ 
+iteration number: 17
+success rate of rule 1 on train : 73.33%        success rate of rule 1 on test : 72.0%
+success rate of rule 2 on train : 72.0%        success rate of rule 2 on test : 73.33%
+success rate of rule 3 on train : 72.0%        success rate of rule 3 on test : 73.33%
+success rate of rule 4 on train : 73.33%        success rate of rule 4 on test : 74.67%
+success rate of rule 5 on train : 74.67%        success rate of rule 5 on test : 73.33%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 73.33%
+success rate of rule 7 on train : 74.67%        success rate of rule 7 on test : 74.67%
+success rate of rule 8 on train : 74.67%        success rate of rule 8 on test : 74.67%
+
+ 
+iteration number: 18
+success rate of rule 1 on train : 69.33%        success rate of rule 1 on test : 77.33%
+success rate of rule 2 on train : 68.0%        success rate of rule 2 on test : 76.0%
+success rate of rule 3 on train : 69.33%        success rate of rule 3 on test : 78.67%
+success rate of rule 4 on train : 68.0%        success rate of rule 4 on test : 76.0%
+success rate of rule 5 on train : 69.33%        success rate of rule 5 on test : 76.0%
+success rate of rule 6 on train : 68.0%        success rate of rule 6 on test : 74.67%
+success rate of rule 7 on train : 69.33%        success rate of rule 7 on test : 80.0%
+success rate of rule 8 on train : 68.0%        success rate of rule 8 on test : 78.67%
+
+ 
+iteration number: 19
+success rate of rule 1 on train : 73.33%        success rate of rule 1 on test : 73.33%
+success rate of rule 2 on train : 70.67%        success rate of rule 2 on test : 76.0%
+success rate of rule 3 on train : 73.33%        success rate of rule 3 on test : 74.67%
+success rate of rule 4 on train : 73.33%        success rate of rule 4 on test : 74.67%
+success rate of rule 5 on train : 73.33%        success rate of rule 5 on test : 74.67%
+success rate of rule 6 on train : 73.33%        success rate of rule 6 on test : 76.0%
+success rate of rule 7 on train : 73.33%        success rate of rule 7 on test : 74.67%
+success rate of rule 8 on train : 73.33%        success rate of rule 8 on test : 76.0%
+
+ 
+iteration number: 20
+success rate of rule 1 on train : 69.33%        success rate of rule 1 on test : 72.0%
+success rate of rule 2 on train : 69.33%        success rate of rule 2 on test : 74.67%
+success rate of rule 3 on train : 72.0%        success rate of rule 3 on test : 77.33%
+success rate of rule 4 on train : 70.67%        success rate of rule 4 on test : 77.33%
+success rate of rule 5 on train : 72.0%        success rate of rule 5 on test : 77.33%
+success rate of rule 6 on train : 72.0%        success rate of rule 6 on test : 77.33%
+success rate of rule 7 on train : 72.0%        success rate of rule 7 on test : 77.33%
+success rate of rule 8 on train : 72.0%        success rate of rule 8 on test : 77.33%
+
+ 
+AVG of success rate on train :  77.33%                 AVG of succes rate on test : 72.0%

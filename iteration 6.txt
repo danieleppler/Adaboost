@@ -1,0 +1,9 @@
+iteration number: 6
+success rate of rule 1 on train : 76.0%        success rate of rule 1 on test : 68.0%
+success rate of rule 2 on train : 78.67%        success rate of rule 2 on test : 69.33%
+success rate of rule 3 on train : 76.0%        success rate of rule 3 on test : 69.33%
+success rate of rule 4 on train : 77.33%        success rate of rule 4 on test : 69.33%
+success rate of rule 5 on train : 77.33%        success rate of rule 5 on test : 70.67%
+success rate of rule 6 on train : 78.67%        success rate of rule 6 on test : 69.33%
+success rate of rule 7 on train : 78.67%        success rate of rule 7 on test : 70.67%
+success rate of rule 8 on train : 78.67%        success rate of rule 8 on test : 70.67%

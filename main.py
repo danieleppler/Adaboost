@@ -1,5 +1,3 @@
-
-
 import random
 from Rule import Rule
 from Point import Point
@@ -17,6 +15,7 @@ def main():
 	Rules= []
 	Train = []
 	Test = []
+	n = 20
 	while line != "":
 		x = line[0:3]
 		y = line[5:8]
@@ -32,71 +31,81 @@ def main():
 		p1 = combinations_object[i][0]
 		p2 = combinations_object[i][1]
 		if p1 != p2:
-			r = Rule(p1,p2)
+			r = Rule(p1, p2)
 			Rules.append(r)
 
 	empirical_error_test = 0
 	empirical_error_train = 0
 
-	for i in range(30):
-		for p in Points:
-			p.weight = 1 / 75
+	iteration = 1
+	for i in range(n):
 
+		f.write("iteration number: " + str(iteration) + '\n')
+		iteration = iteration + 1
 		Train, Test = sklearn.model_selection.train_test_split(Points, train_size=75, test_size=75)
+
+		for p in Train:
+			p.weight = (1 / 75)
 
 		best_rules = []
 
 		for t in range(8):
-			minRule = Rule(0,0)
-			min = sys.maxsize
+			best_Rule = 0
+			min_error = sys.maxsize
 			for h in Rules:
-				if h not in best_rules:
+	#			if h not in best_rules:
 					et = 0
 					for p in Train:
-						hx = check_claissified_point(p,h)
+						hx = check_claissified_point(p, h)
 						if hx == 0:
-							hx = 1
-						else:
-							hx = 0
-						et = et + p.weight * hx
-					if et < min:
-						minRule = h
-						min = et
+							et = et + p.weight
+					if et < min_error:
+						best_Rule = h
+						min_error = et
 
-			minRule.weight = (1/2) * np.log((1-min)/min)
-			best_rules.append(minRule)
+
+			if min_error >= 0.5:
+				min_error = 1 - min_error
+
+			num = ((1-min_error)/min_error)
+			alpha = (1/2) * np.log(num)
+			r = Rule(best_Rule.p1,best_Rule.p2)
+			r.weight = alpha
+			best_rules.append(r)
 
 			z = 0
 
-			for p in Train:
-				hx = check_claissified_point(p,minRule)
-				p.weight = p.weight * pow(math.e, (-1 * minRule.weight * hx))
-				z = z + p.weight
+			for p in Points:
+					hx = check_claissified_point(p, best_Rule)
+					if hx == 0:
+						hx = -1
+					p.weight = p.weight * pow(math.e, (-1 * best_Rule.weight * hx))
+					z = z + p.weight
 
-			for p in Train:
-				p.weight = p.weight / z
+			for p in Points:
+					p.weight = (p.weight / z)
 
-
+		rule_number = 1
 		for h in best_rules:
 			ee_test_rule = 0
 			ee_train_rule = 0
-			for p in Test:
-				hx = check_claissified_point(p,h)
-				if hx == 0:
-					ee_test_rule = ee_test_rule + 1
 			for p in Train:
-				hx = check_claissified_point(p,h)
-				if hx == 0:
+				hx = sign(best_rules, p, (rule_number))
+				if hx == -1:
 					ee_train_rule = ee_train_rule + 1
-			f.write("emprical error on train : " + str(ee_train_rule)
-			        + "        emprical error on test : " + str(ee_test_rule) + '\n')
-			empirical_error_test = empirical_error_test + ee_train_rule
-			empirical_error_train = empirical_error_train + ee_test_rule
+			for p in Test:
+				hx = sign(best_rules, p,(rule_number))
+				if hx == -1:
+					ee_test_rule = ee_test_rule + 1
+			f.write("success rate of rule " + str(rule_number) + " on train : " + str(round((100 - (100 * (ee_train_rule/75))),2))
+			        + "%        success rate of rule " + str(rule_number) + " on test : " + str(round((100 - (100 * (ee_test_rule/75))),2)) + "%" + '\n')
+			empirical_error_test = empirical_error_test + (100 - (100 * (ee_test_rule/75)))
+			empirical_error_train = empirical_error_train + (100 - (100 * (ee_train_rule/75)))
+			rule_number = rule_number + 1
 
 		f.write('\n \n')
-
-	f.write("AVG of emprical error on train : " + str((empirical_error_train/100)) +
-	        "     AVG of emprical error on test : " + str((empirical_error_test/100)))
+	f.write("AVG of success rate on train : " + str((empirical_error_train)/(8*n)) +
+	        "     AVG of succes rate on test : " + str((empirical_error_test)/(8*n)))
 
 
 def check_claissified_point(p,h):
@@ -117,6 +126,18 @@ def check_claissified_point(p,h):
 	else:
 		hx = 0
 	return hx
+
+def sign(best_rules,p,k):
+	sum=0
+	for i in range(k):
+		hx = check_claissified_point(p, best_rules[i])
+		if hx == 0:
+			hx = -1
+		sum = sum + best_rules[i].weight * hx
+	if sum > 0:
+		return 1
+	else:
+		return -1
 
 
 
